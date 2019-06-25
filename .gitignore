@@ -1,0 +1,10 @@
+config.php
+/sql/*.sql
+!/sql/schema.sql
+/cache/*
+!/cache/.gitkeep
+!/cache/api/.gitkeep
+!/cache/rate/.gitkeep
+/log/*
+/log/*.log
+!/log/.gitkeep

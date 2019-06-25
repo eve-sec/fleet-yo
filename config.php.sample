@@ -1,0 +1,39 @@
+<?php
+//error reporting
+//ini_set('display_errors', 'On');
+//error_reporting(E_ALL | E_STRICT);
+
+define('DEBUG', False);
+
+//MYSQL credentials
+define('DB_HOST', 'localhost');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
+
+//Cache method (currently only file)
+define('CACHE_METHOD', 'file');
+
+//your eve developer ID and secret
+define('ESI_ID', '');
+define('ESI_SECRET', '');
+
+//local JWT verification, set to False to use the verify endpoint
+define('LOCAL_JWT_VERIFICATION', True);
+
+define('COOKIE_PREFIX', 'fleetyoauth');
+
+//random salt
+define('ESI_SALT', 'random_string_here');
+define('ESI_USER_AGENT', 'yourdomain_fleet-yo');
+
+//admin users
+define('ADMINS', serialize(array("MyChar" => 99966699,)));
+
+//allowed entities to register fleets, leave all blank to allow everyone (names are arbitrary)
+define('FC_PILOTS', array("FC1" => 12345678, "FC2" => 23456789));
+define('FC_CORPS', array("MyCorp" => 87654321,));
+define('FC_ALLYS', array("MyAlliance" => 98765432,));
+
+define('STATS_SALT', 'another_random_string');
+?>

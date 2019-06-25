@@ -1,0 +1,102 @@
+.fitting-container {
+  position: relative;
+  height: 270px;
+}
+
+@media screen and (min-width: 992px) {
+  .fitting-container {
+    transform: scale(1.2);
+    transform-origin: top left;
+  }
+}
+
+.fitting-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fitting-render {
+  position: relative;
+  height: 226px;
+  top: 15px;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+.fit-mod {
+  float: left;
+  position: absolute;
+  height: 22px;
+}
+
+.fit-high-0 {top: 39px; left: 61px;}
+.fit-high-1 {top: 29px; left: 76px;}
+.fit-high-2 {top: 23px; left: 91px;}
+.fit-high-3 {top: 20px; left: 108px;}
+.fit-high-4 {top: 20px; left: 126px;}
+.fit-high-5 {top: 23px; left: 144px;}
+.fit-high-6 {top: 30px; left: 160px;}
+.fit-high-7 {top: 41px; left: 175px;}
+
+.fit-med-0 {top: 59px; left: 194px;}
+.fit-med-1 {top: 74px; left: 203px;}
+.fit-med-2 {top: 88px; left: 210px;}
+.fit-med-3 {top: 106px; left: 214px;}
+.fit-med-4 {top: 123px; left: 214px;}
+.fit-med-5 {top: 141px; left: 211px;}
+.fit-med-6 {top: 157px; left: 205px;}
+.fit-med-7 {top: 173px; left: 195px;}
+
+.fit-low-0 {top: 194px; left: 175px;}
+.fit-low-1 {top: 203px; left: 161px;}
+.fit-low-2 {top: 209px; left: 145px;}
+.fit-low-3 {top: 213px; left: 129px;}
+.fit-low-4 {top: 213px; left: 111px;}
+.fit-low-5 {top: 210px; left: 95px;}
+.fit-low-6 {top: 205px; left: 77px;}
+.fit-low-7 {top: 194px; left: 61px;}
+
+.fit-rig-0 {top: 59px; left: 42px;}
+.fit-rig-1 {top: 73px; left: 32px;}
+.fit-rig-2 {top: 89px; left: 25px;}
+
+.fit-sub-0 {top: 112px; left: 21px;}
+.fit-sub-1 {top: 129px; left: 21px;}
+.fit-sub-2 {top: 146px; left: 25px;}
+.fit-sub-3 {top: 161px; left: 31px;}
+.fit-sub-4 {top: 175px; left: 40px;}
+
+.fitting-drones {
+  position: absolute;
+  height: 48px;
+  left: 241px;
+  -webkit-filter: drop-shadow(0px 0px 2px #000);
+  filter: drop-shadow(0px 0px 2px #000);
+}
+
+.fit-drone {
+  position: absolute;
+  height: 26px;
+  left: 251px;
+  border-radius: 2px;
+  -webkit-filter: drop-shadow(2px 2px 2px #000);
+  filter: drop-shadow(2px 2px 2px #000);
+}
+
+.fitting-charges {
+  position: absolute;
+  height: 48px;
+  left: 278px;
+  -webkit-filter: drop-shadow(0px 0px 2px #000);
+  filter: drop-shadow(0px 0px 2px #000);
+}
+
+.fit-charge {
+  position: absolute;
+  height: 26px;
+  left: 291px;
+  border-radius: 2px;
+  -webkit-filter: drop-shadow(2px 2px 2px #000);
+  filter: drop-shadow(2px 2px 2px #000);
+}

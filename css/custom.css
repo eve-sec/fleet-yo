@@ -1,0 +1,178 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+  height: 100%;
+}
+body {
+  background: url("../img/bg.jpg") black no-repeat top center;
+  background-attachment: fixed;
+  /* Margin bottom by footer height */
+  display: table; width: 100%; height: 100%;
+}
+@media ( min-width:1201px ) {
+    body {
+        background-size: 100%;
+    }
+}
+
+.footer {
+  display: table-row;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 1px;
+  /*background-color: #111111;*/
+}
+
+.navbar {
+  display: table-row;
+  height: 1px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .text-muted {
+  font-size: 10px;
+  margin: 10px 0;
+}
+
+.panel {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  /*background-color: #111111;*/
+}
+
+.navbar-brand {
+  background: url("../img/logo.png") no-repeat top left;
+  padding-left: 52px;
+}
+
+.navbar-nav {
+  float: none;
+}
+
+.nav > li > a > img {
+  margin: -16px 0px -16px 10px;
+}
+
+.col-form-label {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+}
+
+.table > thead > tr > th.mod-header {
+  padding: 5px;
+  width: 22px;
+}
+
+img.mod-column {
+  height: 20px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.center-block {
+  float: none !important
+}
+
+.carousel-inner .carousel-img {
+  box-shadow: 0 0 15px black;
+}
+
+.carousel-inner .item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.carousel-caption {
+  max-width: 480px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 8px #000;
+}
+
+.panel, .navbar-inverse {
+  box-shadow: 0 0 15px black;
+}
+
+@media ( min-width:768px ) {
+  .vcenter {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+    width: 1350px;
+    }
+}
+
+.num-col {
+  text-align: right;
+}
+
+.s10 {color: #2FEFEF}
+.s09 {color: #48F0C0}
+.s08 {color: #00EF47}
+.s07 {color: #00F000}
+.s06 {color: #8FEF2F}
+.s05 {color: #EFEF00}
+.s04 {color: #D77700}
+.s03 {color: #F06000}
+.s02 {color: #F04800}
+.s01 {color: #D73000}
+.s00, .s0 {color: #F00000}
+
+tr[data-href] {
+  cursor: pointer;
+}
+
+tr[data-href]:hover {
+  text-shadow: 1px 1px 6px #FFF;
+  background-color: rgba(33, 128, 172, 0.4) !important;
+}
+
+.dataTable>tbody>tr>td {
+vertical-align: middle;
+}
+
+#killtable > tbody > tr.clickable-row.loss.odd {
+  background-color: #2E0808;
+}
+ 
+#killtable > tbody > tr.clickable-row.loss.even {
+  background-color: #2E1818;
+}
+
+.lowpad>tbody>tr >td {
+  padding: 3px;
+}
+
+table.lowpad {
+   margin-bottom: 2px;
+}
+
+#fleettree{
+    color: #BBBBBB;
+}
+
+#fleettree img {
+   height: 24px;
+}
+
+#fleettree.jstree-default-dark {
+    background: none;
+}
+
+.ft-name {
+    color: #EEEEEE;
+    font-weight: bold;
+}
